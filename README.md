@@ -47,10 +47,12 @@ phantom-inventory-classifier/
 │   ├─ 03_rf_training.ipynb
 │   └─ 04_lstm_training.ipynb
 │
-├─ requirements.txt           # All dependencies
-├─ environment.yml            # Same environment setup as mine
 ├─ .gitignore
-└─ README.md                  # This file
+├─ CITATION.cff               # Cite this repo if you want!
+├─ LICENSE                    # Just MIT
+├─ README.md                  # This file
+├─ environment.yml            # Same environment setup as mine
+└─ requirements.txt           # All dependencies
 ```
 
 ---
