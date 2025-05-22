@@ -74,7 +74,7 @@ I experimented with four modeling approaches:
 
 Each model was trained on the same feature set, which includes engineered indicators like:
 
-- `CurrentBOH`, `sales_gap`, `forecast_gap`, `inventory_discrepancy`
+- `DailyBOH`, `sales_gap`, `forecast_gap`, `inventory_discrepancy`
 - Rolling stock ratios
 - Day-of-week indicators
 
