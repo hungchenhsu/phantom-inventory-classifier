@@ -65,7 +65,7 @@ phantom-inventory-classifier/
 
 ## 🧠 Modeling Process
 
-We experimented with four modeling approaches:
+I experimented with four modeling approaches:
 
 - **LightGBM (LGBM)**: Best performance. Achieved 0.91 precision and 0.76 recall at threshold 0.81.
 - **XGBoost**: Also high precision but slightly lower recall.
@@ -78,7 +78,7 @@ Each model was trained on the same feature set, which includes engineered indica
 - Rolling stock ratios
 - Day-of-week indicators
 
-We optimized for **Precision ≥ 0.90**, as client stakeholders required high trust in phantom alerts.
+I optimized for **Precision ≥ 0.90**, as client stakeholders required high trust in phantom alerts.
 
 ---
 
