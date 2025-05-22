@@ -108,24 +108,24 @@ I optimized for **Precision ≥ 0.90**, as client stakeholders required high tru
 
 3. Run inference (within notebook):
 
-You can run predictions directly using the final `.pkl` pipeline and the saved threshold:
+    You can run predictions directly using the final `.pkl` pipeline and the saved threshold:
 
-```python
-import joblib, json
-import pandas as pd
+    ```python
+    import joblib, json
+    import pandas as pd
 
-# Load model and threshold
-pipeline = joblib.load("model/lgbm/pipeline.pkl")
-tau = json.load(open("model/lgbm/threshold.json"))["precision_floor_threshold"]
+    # Load model and threshold
+    pipeline = joblib.load("model/lgbm/pipeline.pkl")
+    tau = json.load(open("model/lgbm/threshold.json"))["precision_floor_threshold"]
 
-# Load new data
-df = pd.read_csv("data/new_sku_data.csv")
+    # Load new data
+    df = pd.read_csv("data/new_sku_data.csv")
 
-# Predict phantom flags
-proba = pipeline.predict_proba(df)[:, 1]
-df["phantom_alert"] = (proba >= tau).astype(int)
-df.to_csv("phantom_predictions.csv", index=False)
-```
+    # Predict phantom flags
+    proba = pipeline.predict_proba(df)[:, 1]
+    df["phantom_alert"] = (proba >= tau).astype(int)
+    df.to_csv("phantom_predictions.csv", index=False)
+    ```
 
 
 Each model folder contains:
