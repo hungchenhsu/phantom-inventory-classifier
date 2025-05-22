@@ -132,7 +132,7 @@ Each model folder contains:
 
 - `pipeline.pkl`: Full preprocessing + model pipeline
 - `threshold.json`: Tuned threshold for binary decision (precision ≥ 0.90)
-- `model_card.md`: Summary of training setup and results
+- `model_card.pdf`: Summary of training setup and results
 
 ---
 
