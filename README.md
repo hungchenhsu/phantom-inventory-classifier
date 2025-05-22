@@ -36,9 +36,9 @@ phantom-inventory-classifier/
 │
 ├─ model/                     # Final trained models
 │   ├─ lgbm/                  # LightGBM version
-│   ├─ xgb/                   # XGBoost version
+│   ├─ lstm/                  # LSTM version
 │   ├─ rf/                    # Random Forest version
-│   └─ lstm/                  # LSTM version
+│   └─ xgb/                   # XGBoost version
 │
 ├─ notebooks/                 # Training and analysis notebooks
 │   ├─ 01_lgbm_training.ipynb
