@@ -30,7 +30,6 @@ This repository provides a machine learning solution to detect phantom inventory
 
 ## 🚀 Project Structure
 
-
 ```text
 phantom-inventory-classifier/
 │
