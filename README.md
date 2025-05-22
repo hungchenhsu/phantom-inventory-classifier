@@ -97,7 +97,7 @@ I optimized for **Precision ≥ 0.90**, as client stakeholders required high tru
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/phantom-inventory-classifier.git
+    git clone https://github.com/hungchenhsu/phantom-inventory-classifier.git
     cd phantom-inventory-classifier
     ```
 
