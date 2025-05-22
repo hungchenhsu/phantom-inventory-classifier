@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Phantom Inventory Classifier: Multi-Model Detection of Retail Stock Discrepancies"
+authors:
+  - family-names: Hsu
+    given-names: Hung-Chen
+    orcid: https://orcid.org/0009-0007-9806-2443
+date-released: 2025-05-22
+version: "1.0"
+url: https://github.com/hungchenhsu/phantom-inventory-classifier
+repository-code: https://github.com/hungchenhsu/phantom-inventory-classifier
+license: MIT
+type: software
+keywords:
+  - phantom inventory
+  - retail analytics
+  - machine learning
+  - LightGBM
+  - XGBoost
+  - random forest
+  - LSTM
+  - stockout detection
+abstract: >
+  This project provides a unified machine learning framework to detect phantom inventory 
+  in retail environments using LightGBM, XGBoost, Random Forest, and LSTM models. 
+  The classifiers are trained on structured inventory, sales, and forecast data, and tuned to achieve 
+  high-precision alerting (≥ 0.90) to reduce false positives in stock reconciliation workflows.
+  It includes reusable pipelines, thresholds, and evaluation notebooks. Data is excluded due to privacy constraints.
