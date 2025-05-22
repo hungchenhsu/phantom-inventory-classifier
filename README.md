@@ -63,7 +63,7 @@ phantom-inventory-classifier/
 
 ---
 
-## 🧠 Modeling Process
+## 🌟 Modeling Process
 
 I experimented with four modeling approaches:
 
@@ -82,14 +82,14 @@ I optimized for **Precision ≥ 0.90**, as client stakeholders required high tru
 
 ---
 
-## 📈 Results Snapshot
+## 📊 Results Snapshot
 
 | Model    | Precision | Recall | F1   | AUC   |
 |----------|-----------|--------|------|-------|
-| LGBM     | **0.91**  | 0.76   | 0.83 | 0.986 |
-| XGBoost  | 0.91      | 0.59   | 0.71 | 0.939 |
-| RF       | 0.83      | 0.49   | 0.61 | 0.854 |
-| LSTM     | *Coming soon* | –    | –    | –     |
+| ⚡️ LGBM     | **0.91**  | 0.76   | 0.83 | 0.986 |
+| 📈 XGBoost  | 0.91      | 0.59   | 0.71 | 0.939 |
+| 🌳 RF       | 0.83      | 0.49   | 0.61 | 0.854 |
+| 🧠 LSTM     | *Coming soon* | –    | –    | –     |
 
 ---
 
