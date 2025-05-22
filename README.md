@@ -14,6 +14,8 @@ Detect phantom inventory in retail store systems using machine learning models (
 
 This repository provides a machine learning solution to detect phantom inventory with high precision.
 
+> ⚠️ **Note:** The dataset used in this project is protected under NDA and cannot be shared or distributed under any circumstances.
+
 ---
 
 ## ⚙️ Technology Stack
