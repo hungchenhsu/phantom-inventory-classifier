@@ -142,7 +142,7 @@ Each model folder contains:
 - [Technology Stack](#️-technology-stack)
 - [Project Structure](#-project-structure)
 - [Modeling Process](#-modeling-process)
-- [Results Snapshot](#%EF%B8%8F-results-snapshot)
+- [Results Snapshot](#-results-snapshot)
 - [How to Use](#-how-to-use)
 - [Table of Contents](#-table-of-contents)
 
