@@ -19,7 +19,6 @@ keywords:
   - XGBoost
   - random forest
   - LSTM
-  - stockout detection
 abstract: >
   This project provides a unified machine learning framework to detect phantom inventory 
   in retail environments using LightGBM, XGBoost, Random Forest, and LSTM models. 
