@@ -148,6 +148,6 @@ Each model folder contains:
 
 ---
 
-## 💡 License / Contributions
+## 📄 License
 
-This repository is for academic and internal demo purposes. Contact us to discuss production use or to contribute additional models or feature engineering.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
