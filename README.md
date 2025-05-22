@@ -48,7 +48,7 @@ phantom-inventory-classifier/
 │   └─ 04_lstm_training.ipynb
 │
 ├─ requirements.txt           # All dependencies
-├─ environment.yml            # Same environment as mine
+├─ environment.yml            # Same environment setup as mine
 ├─ .gitignore
 └─ README.md                  # This file
 ```
