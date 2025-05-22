@@ -41,22 +41,13 @@ phantom-inventory-classifier/
 │   └─ lstm/                  # LSTM version
 │
 ├─ notebooks/                 # Training and analysis notebooks
-│   ├─ 01_feature_engineering.ipynb
-│   ├─ 02_lgbm_training.ipynb
-│   ├─ 03_xgb_training.ipynb
-│   ├─ 04_rf_training.ipynb
-│   └─ 05_lstm_training.ipynb
-│
-├─ src/                       # Reusable code for inference
-│   ├─ utils/
-│   └─ inference/
-│       ├─ lgbm.py
-│       ├─ xgb.py
-│       ├─ rf.py
-│       └─ lstm.py
+│   ├─ 01_lgbm_training.ipynb
+│   ├─ 02_xgb_training.ipynb
+│   ├─ 03_rf_training.ipynb
+│   └─ 04_lstm_training.ipynb
 │
 ├─ requirements.txt           # All dependencies
-├─ MODEL_CARD.md              # Model summary and evaluation
+├─ environment.yml            # Same environment as mine
 ├─ .gitignore
 └─ README.md                  # This file
 ```
