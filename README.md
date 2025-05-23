@@ -18,6 +18,18 @@ This repository provides a machine learning solution to detect phantom inventory
 
 ---
 
+## 📚 Table of Contents
+
+- [What is Phantom Inventory?](#-what-is-phantom-inventory)
+- [Technology Stack](#️-technology-stack)
+- [Project Structure](#-project-structure)
+- [Modeling Process](#-modeling-process)
+- [Results Snapshot](#-results-snapshot)
+- [How to Use](#-how-to-use)
+- [Table of Contents](#-table-of-contents)
+
+---
+
 ## ⚙️ Technology Stack
 
 - Python 3.11.8
@@ -127,18 +139,6 @@ Each model folder contains:
 - `pipeline.pkl`: Full preprocessing + model pipeline
 - `threshold.json`: Tuned threshold for binary decision (precision ≥ 0.90)
 - `model_card.pdf`: Summary of training setup and results
-
----
-
-## 📚 Table of Contents
-
-- [What is Phantom Inventory?](#-what-is-phantom-inventory)
-- [Technology Stack](#️-technology-stack)
-- [Project Structure](#-project-structure)
-- [Modeling Process](#-modeling-process)
-- [Results Snapshot](#-results-snapshot)
-- [How to Use](#-how-to-use)
-- [Table of Contents](#-table-of-contents)
 
 ---
 
